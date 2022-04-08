@@ -1,0 +1,250 @@
+{
+    "name": "XRActions",
+    "maps": [
+        {
+            "name": "LeftHandActions",
+            "id": "113dd83b-feb7-4e9b-9799-c6490b9c3866",
+            "actions": [
+                {
+                    "name": "triggerPress",
+                    "type": "Button",
+                    "id": "d3bfd06e-aa12-4373-82dc-e3112a25b0f9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "triggerSqueeze",
+                    "type": "Value",
+                    "id": "a02db926-57a7-4d6d-8534-556227296d86",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "gripGrab",
+                    "type": "Button",
+                    "id": "1978178d-7936-424c-b806-f5856d83ffbf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "touchPadTouch",
+                    "type": "Button",
+                    "id": "a631c722-254e-4190-8e6a-b64cebdc1fcb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "touchPadPos",
+                    "type": "Value",
+                    "id": "515227a7-4419-41ca-8c05-6e488128a50e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "menuButton",
+                    "type": "Button",
+                    "id": "e8ac868d-2dba-4b31-9a95-a4ead1ac706d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "64b179a6-60e5-4bcd-8727-8ca65710fbeb",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "gripGrab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1cb4bf21-6afe-4475-bef7-5abc03f5eeac",
+                    "path": "<XRController>{LeftHand}/touchpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "touchPadPos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b65c9136-854d-4f2a-926d-62aa5891a857",
+                    "path": "<XRController>{LeftHand}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "menuButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "365dd7b3-4271-4429-a14d-fec00de07c95",
+                    "path": "<XRController>{LeftHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "triggerSqueeze",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3432e74f-00a8-49b2-a4e7-4f61423b2e7d",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "triggerPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4d17e350-d06a-475b-a96d-dd7417046990",
+                    "path": "<XRController>{LeftHand}/touchpadTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "touchPadTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RightHandActions",
+            "id": "bf1ff014-5125-418e-bdcc-e329e2293f93",
+            "actions": [
+                {
+                    "name": "touchPadTouch",
+                    "type": "Button",
+                    "id": "15dd2a37-54e7-4ff2-a303-f266b7cd2485",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "menuButton",
+                    "type": "Button",
+                    "id": "dc72731d-33e1-45d1-8e57-f56cae9cca8b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "touchPadPos",
+                    "type": "Value",
+                    "id": "2b8f2178-76d6-433e-bc90-8cf1f64bb17e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "triggerSqueeze",
+                    "type": "Value",
+                    "id": "c4e15776-17a9-4e51-953a-efbe122e7338",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "triggerPress",
+                    "type": "Button",
+                    "id": "c693dd98-9cd4-42a3-8d0f-db3a10cb6810",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "gripGrab",
+                    "type": "Button",
+                    "id": "b5fd3b6f-a19a-4784-aa4c-1edf9a0a6dcb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6753649e-1548-4844-ba90-42dcad038f68",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "gripGrab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dc1b68e2-ff08-4913-b0d9-ddde2f4e090c",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "triggerPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "81ea2c9c-b3da-485b-b1f3-527d7a0c3535",
+                    "path": "<XRController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "triggerSqueeze",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "73ba731c-9f7b-48cc-8eec-e0f1a3ae72e6",
+                    "path": "<XRController>{RightHand}/touchpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "touchPadPos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3d69ac88-cbc7-43df-9e4f-0fec2c764dd4",
+                    "path": "<XRController>{RightHand}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "menuButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ef5101ae-dec3-4d71-91f4-7f8cf30bcece",
+                    "path": "<XRController>{RightHand}/touchpadTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "touchPadTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
